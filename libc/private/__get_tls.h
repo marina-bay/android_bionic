@@ -40,6 +40,6 @@ void **__get_tls_hooks(void);
 
 #include "__get_tls_internal.h"
 
-//#define __get_tls __get_tls_hooks
+#define __get_tls __get_tls_hooks
 
 #endif /* __BIONIC_PRIVATE_GET_TLS_H_ */
